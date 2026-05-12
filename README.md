@@ -26,7 +26,6 @@ Dataset_composites_inner.csv — объединенный датасет (фор
 
 CLI-приложение  
 app.py — консольный интерфейс для прогноза (`modulus`, `strength` или `ratio`)
-download_data.py — скачивание и подготовка датасета из Google Drive
 
 ## Запуск CLI
 
