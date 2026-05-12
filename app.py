@@ -4,9 +4,9 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-from sclearn.ensemble import RandomForestRegressor
-from sclearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-from sclearn.model_selection import GridSearchCV, train_test_split
+from scikit-learn.ensemble import RandomForestRegressor
+from scikit-learn.metrics import mean_absolute_error, mean_squared_error, r2_score
+from scikit-learn.model_selection import GridSearchCV, train_test_split
 
 
 DATA_BP = Path("hw_data_composite/X_bp.xlsx")
