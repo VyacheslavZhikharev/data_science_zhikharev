@@ -30,8 +30,3 @@ app.py — консольный интерфейс для прогноза (`mod
 Пример запуска с пользовательскими значениями из JSON:
 `python app.py --target strength --input-json input_example.json`
 
-Запуск на очищенном датасете:
-`python app.py --target strength --data-mode clean`
-
-Запуск на полном датасете:
-`python app.py --target strength --data-mode full`
