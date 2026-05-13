@@ -22,7 +22,7 @@ hw_data_composite/X_nup.xlsx
 CLI-приложение  
 app.py — консольный интерфейс для прогноза (`modulus`, `strength` или `ratio`)
 
-## Запуск CLI
+## Запуск CLI-приложения
 
 Пример запуска с прогнозом модуля упругости:
 `python app.py --target modulus`
@@ -35,7 +35,3 @@ app.py — консольный интерфейс для прогноза (`mod
 
 Запуск на полном датасете:
 `python app.py --target strength --data-mode full`
-
-## Скачивание датасета
-`python -m pip install gdown`
-`python download_data.py`
