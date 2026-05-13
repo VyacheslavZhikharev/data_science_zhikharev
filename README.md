@@ -14,42 +14,28 @@
 4_ВКР_Жихарев_Вячеслав_Сергеевич_Свойства_композитов_Кластеризация.ipynb  
 
 Прогнозирование конечных свойств новых материалов.pptx - презентация  
-Прогнозирование конечных свойств новых материалов.pdf - презентация в формате pdf  
-
-Файл пояснительной записки в формате docx  
-Файл пояснительной записки в формате pdf  
 
 Исходные данные  
 hw_data_composite/X_bp.xlsx  
 hw_data_composite/X_nup.xlsx
-Dataset_composites_inner.csv — объединенный датасет (формируется в ноутбуке предобработки)
-Dataset_composites_inner_marked.csv — датасет с метками возможных искусственных строк
-Dataset_composites_inner_clean.csv — очищенный датасет без подозрительных строк
 
 CLI-приложение  
 app.py — консольный интерфейс для прогноза (`modulus`, `strength` или `ratio`)
-download_data.py — скачивание и подготовка датасета из Google Drive
 
 ## Запуск CLI
 
 Пример запуска с прогнозом модуля упругости:
-
 `python app.py --target modulus`
 
 Пример запуска с пользовательскими значениями из JSON:
-
 `python app.py --target strength --input-json input_example.json`
 
 Запуск на очищенном датасете:
-
 `python app.py --target strength --data-mode clean`
 
 Запуск на полном датасете:
-
 `python app.py --target strength --data-mode full`
 
 ## Скачивание датасета
-
 `python -m pip install gdown`
-
 `python download_data.py`
